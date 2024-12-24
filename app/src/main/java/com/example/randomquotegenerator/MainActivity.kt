@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
     fun onNext(view: View) {
         setQuote(mainViewModel.nextQuote())
     }
-
+// is
     fun onShare(view: View) {
         val intent = Intent(Intent.ACTION_SEND)
         intent.setType("text/plain")
